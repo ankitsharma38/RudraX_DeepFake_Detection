@@ -27,6 +27,19 @@ Follow these steps to set up the project environment:
    ```bash
    git clone https://github.com/ankitsharma38/RudraX_DeepFake_Detection.git
    cd RudraX_DeepFake_Detection
-2.**Create a Virtual Environment**
-  ```bash
-    python -m venv new_env
+
+2. **Create a Virtual Environment**
+   ```bash
+   python -m venv new_env
+
+3. **Activate the Virtual Environment**
+   ```bash
+   new_env\Scripts\activate
+4. **Install Required Packages**
+   ```bash
+   pip install -r requirements.txt
+
+5. **Run the Project **
+   ```bash
+   python app.py
+
